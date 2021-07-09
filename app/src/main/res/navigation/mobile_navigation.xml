@@ -22,4 +22,24 @@
         android:name="irishirajj.github.io.therjmailingservices.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_inbox"
+        android:name="irishirajj.github.io.therjmailingservices.ui.inbox.inbox"
+        android:label="@string/menu_inbox"
+        tools:layout="@layout/inbox_fragment" />
+    <fragment
+        android:id="@+id/nav_outbox"
+        android:name="irishirajj.github.io.therjmailingservices.ui.outbox.outbox"
+        android:label="@string/menu_outbox"
+        tools:layout="@layout/outbox_fragment" />
+    <fragment
+        android:id="@+id/nav_sent"
+        android:name="irishirajj.github.io.therjmailingservices.ui.sent.sent"
+        android:label="@string/menu_sent"
+        tools:layout="@layout/sent_fragment" />
+    <fragment
+        android:id="@+id/nav_trash"
+        android:name="irishirajj.github.io.therjmailingservices.ui.trash.trash"
+        android:label="@string/menu_trash"
+        tools:layout="@layout/trash_fragment" />
 </navigation>
